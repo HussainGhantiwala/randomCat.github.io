@@ -1,0 +1,50 @@
+.button{
+    margin-top: 10px;
+    border: 2px solid ;
+    text-align: center;
+    transition: box-shadow ease-out 0.25s;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+.button:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px white;
+    border-style: dotted;
+}
+.header-content{
+    text-align: center;
+}
+body{
+    background-color: rgb(17, 17, 17);
+}
+/* javascript */
+.cats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    filter: drop-shadow(0 0 20px );
+    animation: rainbow 6s linear infinite ;
+}
+@keyframes rainbow {
+    0% { filter: drop-shadow(0 0 50px red); }
+    14% { filter: drop-shadow(0 0 50px orange); }
+    28% { filter: drop-shadow(0 0 50px yellow); }
+    42% { filter: drop-shadow(0 0 50px green); }
+    57% { filter: drop-shadow(0 0 50px blue); }
+    71% { filter: drop-shadow(0 0 50px indigo); }
+    85% { filter: drop-shadow(0 0 50px violet); }
+    100% { filter: drop-shadow(0 0 50px red); }
+}
+    
+    
+.random-cats{
+    width: 40%;
+}
+.img{
+    max-width: 700px;
+    height: 30rem;
+}
+h1{
+    color: #fff;
+}
